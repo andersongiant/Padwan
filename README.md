@@ -13,6 +13,7 @@ Configurar maquinas para executar um container com uma API automaticamente.
 Preparar uma infraestrutura elastica.
 
 ✔️ Técnicas e tecnologias utilizadas
+
 Neste App são exploradas as seguintes técnicas e tecnologias:
 
 Criação de maquinas virtuais para executar containers Docker: criação de maquinas virtuias no ambiente EC2 (Elastic Compute Cloud) da AWS feito de forma automatica pelo ECS(Amazon Elastic Conteiner Service).
