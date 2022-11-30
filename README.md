@@ -17,7 +17,9 @@ Preparar uma infraestrutura elastica.
 Neste App são exploradas as seguintes técnicas e tecnologias:
 
 Criação de maquinas virtuais para executar containers Docker: criação de maquinas virtuias no ambiente EC2 (Elastic Compute Cloud) da AWS feito de forma automatica pelo ECS(Amazon Elastic Conteiner Service).
-Criação de imagens Docker: criação das imagens a serem utilizadas pelo Docker
+
+Criação de imagens Docker: criação das imagens a serem utilizadas pelo Docker.
+
 Construção do ambiente de forma automatica utilizando a ferramenta de Iac Terraform.
 
 📁 Acesso ao projeto
