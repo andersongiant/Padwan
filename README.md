@@ -1,7 +1,8 @@
 # Projeto Padwan
 
-Resumo do projeto
-Primeiro projeto de Infraestrutura como código com docker, utilizando Terraform para provisionamento e AWS como provedor da infraestrutura.
+Resumo do projeto:
+
+Meu Primeiro projeto de Infraestrutura como código com docker, utilizando Terraform para provisionamento e AWS como provedor da infraestrutura.
 
 🔨 Funcionalidades do projeto
 
