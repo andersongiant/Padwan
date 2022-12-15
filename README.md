@@ -33,20 +33,26 @@ Task — é o runtime de instancia;
 
 Task definition — São modelos, templates para as tasks. Aqui é onde se define qual imagem docker usar, memória/cpu, rede, etc.;
 
+
 Container (apenas EC2) — É a instância onde as tasks rodam;
+
 
 Cluster:
 
+
 EC2 — Um grupo de Containers que rodam as Tasks;
+
 Fargate — Um grupo de Tasks. Só preciso me preocupar com o nr de Tasks;
+
 Service — Gerencia as tasks e garante a quantidade delas que estão online e rodando.
 
-O Amazon Elastic Compute Cloud (EC2) é uma solução que facilita a obtenção de servidores virtuais, também conhecidos como instâncias de computadores na nuvem. Olhando um pouco mais de perto, podemos conhecer um pouco mais sobre suas principais características.
+O Amazon Elastic Compute Cloud (EC2) é uma solução que facilita a obtenção de servidores virtuais, também conhecidos como instâncias de computadores na nuvem. 
 
 Docker:
 
-Docker é uma forma de virtualizar aplicações no conceito de “containers”, trazendo da web ou de seu repositório interno uma imagem completa, incluindo todas as dependências necessárias para executar sua aplicação
+Docker é uma forma de virtualizar aplicações no conceito de “containers”, trazendo da web ou de seu repositório interno uma imagem completa, incluindo todas as dependências necessárias para executar sua aplicação.
 Qual a vantagem de usar o Docker?
+
 O Docker permite que os aplicativos sejam separados da infraestrutura para que possam entregar o software rapidamente. Com o Docker, você pode gerenciar sua infraestrutura da mesma forma que gerencia seus aplicativos e com isso reduzir significativamente o atraso entre escrever o código e executá-lo na produção.
 
 📁 Acesso ao projeto
