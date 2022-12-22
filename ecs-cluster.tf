@@ -11,7 +11,7 @@ data "aws_ami" "ecs-ami" {
 
   filter {
     name   = "name"
-    values = ["amzn2-ami-ecs-hvm-2.0.20221115-x86_64-ebs"]
+    values = ["amzn2-ami-ecs-hvm-2.0.*"]
   }
 
   filter {
